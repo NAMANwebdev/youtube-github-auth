@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protected Content</title>
+    <link rel="stylesheet" href="/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <h1>Welcome to My App</h1>
+    </div>
+    <div class="container animation">
+        <h2><%= subscribed ? "Thank You for Subscribing!" : "You're Not Subscribed" %></h2>
+        <% if (subscribed) { %>
+            <img src="images/thank-you.gif" alt="Thank You!" />
+        <% } else { %>
+            <span style="font-size:5rem;width:100%">&#128531</span>
+            <p>Please subscribe to our YouTube channel to access this content:</p>
+            <a href="https://www.youtube.com/@BYTE-mait" class="button">Visit Our Channel</a>
+            <button class="button" onclick="location.reload();">Refresh Subscription Status</button>
+        <% } %>
+        <div class="footer">
+            <a href="/">Back to Home</a>
+        </div>
+    </div>
+</body>
+</html>
