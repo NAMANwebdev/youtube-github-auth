@@ -1,6 +1,6 @@
-B.Y.T.E. Project
+
 Overview
-This project is a subscription verification system that restricts access to a private page based on user subscriptions to the B.Y.T.E. YouTube channel and follows on GitHub. Users must authenticate via Google or GitHub to verify their subscriptions/follows.
+This project is a subscription verification system that restricts access to a private page based on user subscriptions to the a YouTube channel and follows on GitHub. Users must authenticate via Google or GitHub to verify their subscriptions/follows.
 
 Features
 OAuth authentication with Google and GitHub.
